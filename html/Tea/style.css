@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'chalk';
+    src: url(Assets/chawp.ttf);
+}
+body{
+    font-family: 'chalk';
+    background-image: url(Assets/back.jpg);
+    background-size: cover;
+}
+.title{
+    font-size: 600%;
+    text-align: center;
+    color: white;
+}
+.tea_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 20%;
+}
+.list{
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    margin-left: 75px;
+}
+ul{
+    display: inline-block;
+    text-align: left;
+    list-style-type: decimal;
+}
